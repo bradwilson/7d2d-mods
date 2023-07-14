@@ -1,0 +1,16 @@
+<configs>
+    <!-- How fast is food consumed? -->
+    <set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='FoodChangeOT' and @operation='base_subtract']/@value">.002</set>
+    <set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='FoodLossPerStaminaPointGained' and @operation='base_set']/@value">0</set>
+
+    <!-- How fast is water consumed? -->
+    <set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='WaterChangeOT' and @operation='base_subtract']/@value">.002</set>
+    <set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='WaterLossPerHealthPointGained' and @operation='base_set']/@value">0</set>
+    <set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='WaterLossPerStaminaPointGained' and @operation='base_set']/@value">0</set>
+
+    <!-- How fast does health regen? -->
+    <set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='HealthChangeOT' and @operation='base_set']/@value">.2</set>
+    
+    <!-- How fast does stamina regen? -->
+    <set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='StaminaChangeOT' and @operation='base_set']/@value">20</set>
+</configs>

@@ -1,0 +1,1 @@
+These are the mods I use with 7 Days to Die on the dedicated "Friends of DigiChaos" server and for my local games. Most of the code here comes from other places, except for the `ZZZ-Brad` folder, which is meant to be the specific overrides we use.
